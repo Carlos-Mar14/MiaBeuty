@@ -18,3 +18,13 @@ Esta página web es básica y se puede acceder a ella a través de un enlace en 
 ## Tecnologías utilizadas
 
 Esta página web se ha creado con Angular y se han editado estilos con CSS y Bootstrap.
+
+## Autor
+
+**Carlo Andres Marin Agudelo**
+
+- Sitio web: [https://www.linkedin.com/in/carlos-andres-marin-292811203/]
+- Correo electrónico: [c.marin845@hotmail.com]
+- Twitter: [@cmarin845]
+
+Soy un desarrollador web con experiencia en la creación de aplicaciones y sitios web utilizando tecnologías como Angular, CSS, Bootstrap, React Native, Node.js, Express, MongoDB, Firebase. Me apasiona crear soluciones innovadoras y ayudar a las empresas a alcanzar sus objetivos en línea.
