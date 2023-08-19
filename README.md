@@ -1,28 +1,20 @@
-# Miabeuty
+# Mia Beuty Tienda Online de Ropa Femenina y Maquillaje 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+Esta página web se ha creado con el propósito de tener una página web para dos tiendas online establecidas en Instagram, una tienda es de ropa femenina y la otra es de maquillaje. La idea es que los posibles clientes entren a dicha página, miren el catálogo disponible de productos y establezcan contacto para posible compra o recibo de información a través de botones que redireccionen a Instagram, WhatsApp o correo electrónico.
 
-## Development server
+## Características principales
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Ver productos disponibles
+- Acercar a los clientes a realizar una posible compra
 
-## Code scaffolding
+## Requisitos previos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+No hay ningún requisito previo para ejecutar esta página web.
 
-## Build
+## Instalación y ejecución
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Esta página web es básica y se puede acceder a ella a través de un enlace en el que la gente dará clic y podrá ingresar a dicha página.
 
-## Running unit tests
+## Tecnologías utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-"# MiaBeuty" 
+Esta página web se ha creado con Angular y se han editado estilos con CSS y Bootstrap.
