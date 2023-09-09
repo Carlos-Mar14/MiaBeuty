@@ -20,17 +20,60 @@
     opacity: 0.5;
 }
 
-.picture {
-    position: absolute;
-    left: 40%;
-    width: 20%;
-    height: 25%;
-    border-radius: 30%;
-    top: 20%; /* Ajusta el valor de acuerdo a tu preferencia */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.titulo1 {
-    font-family: Impact, 'Times New Roman';
-    font-size: 5vw; /* Utilizando vw para el tamaño de fuente */
-    margin-top: 10%;
+.picture {
+    width: 250px; /* Ajusta el tamaño del logo según tus preferencias */
+    height: 250px; /* Ajusta el tamaño del logo según tus preferencias */
+    border-radius: 50%; /* Agrega un redondeado al logo */
+    margin-bottom: 20px; /* Espacio entre el logo y el título */
+}
+
+.banner2 {
+    background-image: url("../../assets/img/MiaBLogo.png");
+    background-position: top center;
+    background-size: 50%; /* Puedes ajustar el valor según tus necesidades */
+    background-attachment: fixed;
+    padding: 25% 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner2::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.banner3 {
+    background-image: url("../../assets/img/MiaBeauty.jpg");
+    background-position: top center;
+    background-size: 20%; /* Puedes ajustar el valor según tus necesidades */
+    background-attachment: fixed;
+    padding: 25% 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner3::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
 }
