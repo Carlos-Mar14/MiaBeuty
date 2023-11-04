@@ -16,6 +16,7 @@ body{
 	
 
 }
+
 #footer{
 	background: #f7f7f7;
     padding: 3rem;
@@ -28,119 +29,80 @@ body{
 	background: #f7f7f7;
     padding: 3rem;
     margin-top: 0px;
-	/* padding-top: 5rem; */
 	padding-top: 7rem;
     padding-bottom: 80px;
 	background-image: url(../../assets/img/MiaBeauty.jpg);
 }
 .logo-footer{
-	/* max-width: 300px; */
+	width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
-.social-links{
-	/* display: flex;
-    flex-direction: column;
+
+.social-links {
+    text-align: center;
+	margin-top: 30%;
+	margin-left: 80%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-whatsapp, .btn-instagram {
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    gap: 10px;
+}
 
+.btn-whatsapp:hover {
+    background-color: #2EB75A;
 }
-.social-links h2{
-	padding-bottom: 15px;
-	font-size: 20px;
+
+.whatsapp-icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px auto;
+}
+
+.btn-instagram:hover {
+    background-color: #FC397A;
+}
+
+.instagram-icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px auto;
+}
+
+.address {
+    margin-left: 85%;
+}
+
+.address h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 20px;
     font-weight: 600;
 }
-.social-links img{
-	padding-bottom: 25px;
-}
-.social-icons{
-	/* display: flex;
-    gap: 3rem; */
-	display: flex;
-    flex-direction: column;
-    gap: 1rem;
-	color: #777777;
-}
-.social-icons a{
-	/* font-size: 18px; */
-    /* background: #ffffff; */
-    /* box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
-    padding: 0.4rem 1rem 0.4rem 1rem;
-    border-radius: 3px;
-	color: #82074a; */
-	/* margin-right: 18px; */
-	color: #777777;
-}
-.social-icons a:hover{
-	color: #000;
-}
-.social-icons a i{
-	box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
-    padding: 0.4rem 1rem 0.4rem 1rem;
-    border-radius: 3px;
-    color: #82074a;
-	font-size: 16px;
-	margin-right: 12px;
-}
-li{
-	list-style: none;
-}
-.useful-link h2{
-	padding-bottom: 15px;
-	font-size: 20px;
-    font-weight: 600;
-}
-.useful-link img{
-	padding-bottom: 15px;
-}
-.use-links{
-	line-height: 32px;
-}
-.use-links li i{
-	font-size: 14px;
-    padding-right: 8px;
-    color: #898989;
-}
-.use-links li a{
-	color: #303030;
-    font-size: 15px;
+
+.address-links .address1 {
     font-weight: 500;
-	color: #777777;
-}
-.use-links li a:hover{
-	color: #000;
-}
-.address h2{
-	padding-bottom: 15px;
-	font-size: 20px;
-    font-weight: 600;
-}
-.address img{
-	padding-bottom: 15px;
-}
-.address-links li a{
-	color: #303030;
     font-size: 15px;
-    font-weight: 500;
-	color: #777777;
+    display: flex;
+}
 
+.address-links {
+    line-height: 32px;
+    color: rgb(36, 36, 36);
 }
-.address-links li i{
-	font-size: 16px;
-    padding-right: 8px;
-	color: #82074a;
 
+.title {
+    color: #030303;
 }
-.address-links li i:nth-child(1){
-	padding-top: 9px;
-}
-.address-links .address1{
-	font-weight: 500;
-    font-size: 15px;
-	display: flex;
-}
-.address-links{
-	    line-height: 32px;
-		color: #777777;
-}
+
 .copy-right-sec{
 	padding: 1.8rem;
     background: #82074a;
@@ -154,3 +116,16 @@ li{
 a{
   text-decoration:none;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px; /* Ajusta esto a tu gusto */
+}
+
+.col-md-3 {
+    flex-basis: calc(30% - 10px); /* Ajusta esto a tu gusto */
+    margin: 50 -15px; /* Ajusta esto a tu gusto */
+	
+}
+
