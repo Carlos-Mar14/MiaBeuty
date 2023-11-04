@@ -39,44 +39,6 @@
     border-radius: 50%; /* Agrega un redondeado al logo */
 }
 
-.banner2 {
-    background-image: url("../../assets/img/MiaBLogo.png");
-    background-position: top center;
-    background-size: 50%; /* Puedes ajustar el valor según tus necesidades */
-    background-attachment: fixed;
-    padding: 25% 0;
-    position: relative;
-    z-index: 1;
-}
-
-.banner2::after {
-    content: '';
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.8;
-}
-
-.banner2 .display-4 {
-    font-size: 2.3rem; /* Ajusta el tamaño de la fuente del título */
-    font-weight: bolder;
-    color: #ffffff; /* Ajusta el color del título */
-    text-transform: uppercase; /* Convierte el texto del título a mayúsculas */
-    letter-spacing: 1px; /* Añade un espacio entre las letras del título */
-    margin-bottom: 20px; /* Añade un espacio debajo del título */
-}
-
-.banner2 .lead {
-    font-size: 1.25rem; /* Ajusta el tamaño de la fuente de la descripción */
-    color: #666; /* Ajusta el color de la descripción */
-    line-height: 1.5; /* Ajusta el espacio entre las líneas de la descripción */
-    font-weight: bolder;
-    color: #ffffff; /* Ajusta el color del título */
-}
 
 .banner3 {
     background-image: url("../../assets/img/MiaBeauty.jpg");
@@ -132,9 +94,7 @@
     transform: scale(2.1); /* Ajusta el nivel de zoom */
 }
 
-.banner2 {
-    padding-top: 0; /* Reduce el espacio entre el borde superior de la sección y las tarjetas */
-}
+
 
 .banner3 .display-4 {
     font-size: 2.3rem; /* Ajusta el tamaño de la fuente del título */
