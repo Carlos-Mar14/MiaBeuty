@@ -19,15 +19,24 @@
     opacity: 0.6;
 }
 
-
 #footer .col {
     flex: 1;
 }
 
-/* Estilos para dispositivos móviles */
-@media (max-width: 600px) {
-    #footer .container {
-        flex-direction: column;
+@media screen and (max-width: 767px) {
+    .social-links, .address, .phone {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important;
+    }
+    .social-links h2, .address h2, .phone h2 {
+        text-align: center !important;
+    }
+    .address, .phone {
+        margin-top: 20px !important; /* Ajusta este valor según sea necesario para el espaciado entre elementos */
+    }
+    .phone-number{
+        margin-right: 50px !important;
     }
 }
 
@@ -37,14 +46,11 @@
     border-radius: 50%;
 }
 
-footer .container .row .col-md-3 a img.img-fluid.logo-footer {
+.container .row .col-md-3 a img.img-fluid.logo-footer {
     width: 50%; /* Ajusta este valor a tu gusto */
     height: auto; /* Esto mantiene la proporción del logo */
     border-radius: 50%;
 }
-
-
-
 
 .img-fluid.logo-footer {
     border-radius: 60%; /* Esto hace que el logo sea redondo */
@@ -57,7 +63,6 @@ footer .container .row .col-md-3 a img.img-fluid.logo-footer {
     align-items: center; /* Esto centra el logo verticalmente */
     justify-content: center; /* Esto centra el logo horizontalmente */
 }
-
 
 .btn-whatsapp, .btn-instagram {
     display: flex;
@@ -111,5 +116,5 @@ footer .container .row .col-md-3 a img.img-fluid.logo-footer {
     font-weight: 200;
 }
 a{
-  text-decoration:none;
+    text-decoration:none;
 }
