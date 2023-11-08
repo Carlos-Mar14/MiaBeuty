@@ -1,60 +1,67 @@
 
-*{
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-o-box-sizing:border-box;
-	-ms-box-sizing:border-box;
-	box-sizing:border-box;
-}
-body{
-	font-size:14px;
-	background: #fff;
-    max-width:1920px;
-    margin:0 auto;
-	overflow-x:hidden;
-	font-family: poppins;
-	
-
+#footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#footer{
-	background: #f7f7f7;
-    padding: 3rem;
-	/* padding-top: 5rem; */
-	padding-top: 7rem;
-    padding-bottom: 80px;
-	background-image: url(https://arena.km.ua/wp-content/uploads/3538533.jpg);
+#footer {
+    position: relative; /* Esto permite que los elementos hijos con position: absolute se posicionen en relación a este elemento */
 }
-#footer2{
-	background: #f7f7f7;
-    padding: 3rem;
-    margin-top: 0px;
-	padding-top: 7rem;
-    padding-bottom: 80px;
-	background-image: url(../../assets/img/MiaBeauty.jpg);
+
+#footer-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Esto coloca la imagen detrás del resto del contenido */
+    opacity: 0.6;
 }
-.logo-footer{
-	width: 300px;
-    height: 300px;
+
+
+#footer .col {
+    flex: 1;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+    #footer .container {
+        flex-direction: column;
+    }
+}
+
+#footer .col img {
+    width: 30%; /* Ajusta este valor a tu gusto */
+    height: auto; /* Esto mantiene la proporción del logo */
     border-radius: 50%;
 }
 
-.social-links {
-    text-align: center;
-	margin-top: 30%;
-	margin-left: 80%;
+footer .container .row .col-md-3 a img.img-fluid.logo-footer {
+    width: 50%; /* Ajusta este valor a tu gusto */
+    height: auto; /* Esto mantiene la proporción del logo */
+    border-radius: 50%;
 }
 
-.social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+
+
+
+.img-fluid.logo-footer {
+    border-radius: 60%; /* Esto hace que el logo sea redondo */
+    display: block;
+    margin: auto; /* Esto centra el logo horizontalmente */
 }
+
+.col-md-3 {
+    display: flex;
+    align-items: center; /* Esto centra el logo verticalmente */
+    justify-content: center; /* Esto centra el logo horizontalmente */
+}
+
 
 .btn-whatsapp, .btn-instagram {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .btn-whatsapp:hover {
@@ -64,7 +71,7 @@ body{
 .whatsapp-icon {
     width: 30px;
     height: 30px;
-    margin: 5px auto;
+    margin: 5px;
 }
 
 .btn-instagram:hover {
@@ -74,58 +81,35 @@ body{
 .instagram-icon {
     width: 30px;
     height: 30px;
-    margin: 5px auto;
+    margin: 5px;
 }
 
-.address {
-    margin-left: 85%;
+.social-links  {
+    margin-left: 180px;
+}
+.social-links h2{
+    margin-left: -15px;
+}
+.address{
+    margin-left: 250px;
+}
+.phone{
+    margin-left: 200px; 
 }
 
-.address h2 {
-    text-align: center;
-    padding-bottom: 15px;
-    font-size: 20px;
-    font-weight: 600;
+.phone-number{
+    margin-left: 50px;
 }
-
-.address-links .address1 {
-    font-weight: 500;
-    font-size: 15px;
-    display: flex;
-}
-
-.address-links {
-    line-height: 32px;
-    color: rgb(36, 36, 36);
-}
-
-.title {
-    color: #030303;
-}
-
 .copy-right-sec{
-	padding: 1.8rem;
-    background: #82074a;
+	padding: 1 rem;
+    background: #d3157d;
     color: #fff;
     text-align: center;
 }
 .copy-right-sec a{
 	color: #fcd462;
-    font-weight: 500;
+    font-weight: 200;
 }
 a{
   text-decoration:none;
 }
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px; /* Ajusta esto a tu gusto */
-}
-
-.col-md-3 {
-    flex-basis: calc(30% - 10px); /* Ajusta esto a tu gusto */
-    margin: 50 -15px; /* Ajusta esto a tu gusto */
-	
-}
-
