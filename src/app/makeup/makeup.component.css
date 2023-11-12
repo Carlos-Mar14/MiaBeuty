@@ -102,15 +102,32 @@
 }
 
 .card {
-    margin: 20px; /* Ajusta el margen entre cada tarjeta */
+    width: 80%;
+    height: auto; /* Esto mantendrá la proporción de la tarjeta */
+    margin: 10px;
+    margin-left: 70px;
     border-radius: 10px; /* Ajusta el borde redondeado de las tarjetas */
     transition: transform .2s; /* Ajusta la velocidad de la animación */
+}
+
+
+/* Estilos para pantallas de celular */
+@media (max-width: 991px) {
+    .card {
+        /* Aquí puedes definir los estilos específicos para pantallas de celular */
+        width: 70%;
+    }
 }
 
 .card:hover,
 .card:active {
     transform: scale(2.1); /* Ajusta el nivel de zoom */
 }
+
+.card .card-body h5 {
+    text-align: center;
+}
+
 
 .banner2 {
     padding-top: 0; /* Reduce el espacio entre el borde superior de la sección y las tarjetas */
