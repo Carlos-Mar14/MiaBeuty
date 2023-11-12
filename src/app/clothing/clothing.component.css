@@ -83,18 +83,40 @@
     margin-top: 20px; /* Ajusta el espacio entre el logo y el título */
 }
 
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    justify-items: center;
+} */
+
 .card {
-    margin: 20px; /* Ajusta el margen entre cada tarjeta */
+    width: 80%;
+    height: auto; /* Esto mantendrá la proporción de la tarjeta */
+    margin: 10px;
+    margin-left: 70px;
     border-radius: 10px; /* Ajusta el borde redondeado de las tarjetas */
     transition: transform .2s; /* Ajusta la velocidad de la animación */
 }
+
+
+/* Estilos para pantallas de celular */
+@media (max-width: 991px) {
+    .card {
+        /* Aquí puedes definir los estilos específicos para pantallas de celular */
+        width: 70%;
+    }
+}
+
 
 .card:hover,
 .card:active {
     transform: scale(2.1); /* Ajusta el nivel de zoom */
 }
 
-
+.card-body h5 {
+    text-align: center;
+}
 
 .banner3 .display-4 {
     font-size: 2.3rem; /* Ajusta el tamaño de la fuente del título */
